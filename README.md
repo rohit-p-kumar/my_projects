@@ -6,3 +6,5 @@
 <li><a id="survey_app_form" href="https://github.com/rohit-p-kumar/my_projects/tree/main/static_projects/survey_form" target="_blank"> Survey App Form </a></li>
 <br>
 <h2> Dynamic Projects </h2>
+<li><a id="video_player" href="https://github.com/rohit-p-kumar/my_projects/tree/main/dynamic_projects/video_player" target="_blank"> Video Player </a></li>
+<li><a id="quoteGenerator" href="https://github.com/rohit-p-kumar/my_projects/tree/main/dynamic_projects/quoteGenerator" target="_blank"> Quote Generator </a></li>
