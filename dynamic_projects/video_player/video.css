@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:wght@100;400&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: seashell;
+}
+
+.screen {
+    cursor: pointer;
+    width: 65%;
+    background-color: #000 !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.controls {
+    background: rgb(87, 85, 85);
+    color: seashell;
+    width: 65%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.controls .btn {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.controls .fa-play {
+    color: cornsilk;
+}
+
+.controls .fa-stop {
+    color: crimson;
+}
+
+.controls .fa-pause {
+    color: rgb(3, 8, 83);
+}
+
+.controls .timestamp {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+@media (max-width: 800px) {
+    .screen
+    .controls {
+        width: 90%;
+    }
+}
+

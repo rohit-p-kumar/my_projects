@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom video player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="video1.css">
+    <link rel="stylesheet" href="video.css">
+<body>
+    <h1>Watch it and enjoy!</h1>
+    <video src="video.mp4" id="video" class="screen" poster="image.jpg"></video>
+    <div class="controls">
+        <button class="btn" id="play">
+            <i class="fa-solid fa-play fa-2x"></i>
+        </button>
+        <button class="btn" id="stop">
+            <i class="fa-solid fa-stop fa-2x"></i>
+        </button>
+        <input type="range" id="progress" class="progress" min="0" max="100" step="0.1" value="0"> 
+        <span class="timestamp" id="timestamp">00:00</span>
+
+    </div>
+    <script src="video.js"></script>
+</body>
+
+</html>
