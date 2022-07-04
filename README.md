@@ -6,8 +6,7 @@
 <li><a id="survey_app_form" href="https://github.com/rohit-p-kumar/my_projects/tree/main/static_projects/survey_form" target="-blank"> Survey App Form </a></li>
 <li><a id="survey_app_form" href="https://github.com/rohit-p-kumar/my_projects/tree/main/static_projects/personal_portfolio" target="-blank"> Personal portfolio </a></li>
 <li><a id="survey_app_form" href="https://github.com/rohit-p-kumar/my_projects/tree/main/static_projects/responsive_clipboard_landingpage" target="-blank"> Responsive clipboard </a></li>
-
-
+<li><a id="Parallax_scrolling_website" href="https://github.com/rohit-p-kumar/my_projects/tree/main/static_projects/Parallax_scrolling_website" target="-blank"> Parallax Scrolling Website </a></li>
 
 <br>
 <h2> Dynamic Projects </h2>
